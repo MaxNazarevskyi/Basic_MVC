@@ -1,0 +1,18 @@
+﻿@model Basic_MVC.Models.LoginModel
+
+@{
+	ViewData["title"] = "Check";
+}
+
+
+<div class="text-center">
+	<h1 class="display-3">@Model.login</h1>
+	@if (@Model.admin)
+	{
+		<p>You are ADMIN</p>
+	}
+	else
+	{
+		<p>You are USER</p>
+	}
+</div>
