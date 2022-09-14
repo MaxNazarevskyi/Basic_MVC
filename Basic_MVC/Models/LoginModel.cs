@@ -7,5 +7,6 @@ namespace Basic_MVC.Models
         public string login { get; set; }
         public string password { get; set; }
         public bool admin { get; set; }
+        public bool passCorrect { get; set; }
     }
 }

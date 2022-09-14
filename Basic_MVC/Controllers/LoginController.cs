@@ -24,14 +24,15 @@ namespace Basic_MVC.Controllers
         {
             user.login = this.Request.Form["login"];
             user.password = this.Request.Form["password"];
+            user.passCorrect = false;
             foreach (var record in Users())
             {
                 if (user.login == record.login && user.password == record.password)
                 {
+                    user.passCorrect = true;
                     user.admin = record.admin;
-                    break;
+                    return View("Check", user);
                 }
-
             }
             if (user.login == null || user.password == null)
             {

@@ -7,12 +7,20 @@
 
 <div class="text-center">
 	<h1 class="display-3">@Model.login</h1>
-	@if (@Model.admin)
+	@if (@Model.passCorrect == true)
 	{
-		<p>You are ADMIN</p>
+		@if (@Model.admin)
+		{
+			<p>You are ADMIN</p>
+		}
+		else
+		{
+			<p>You are USER</p>
+		}
 	}
 	else
 	{
-		<p>You are USER</p>
+		<p>ERROR Invalid password</p>
+		<a href = "https://localhost:44336/Login">Password entry link</a>
 	}
 </div>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\NG_NazarevskyiMax_2022\\.Net Basic MVC\\Basic_MVC\\Basic_MVC\\Basic_MVC.csproj",
+      "projectUniqueName": "D:\\Projects\\Basic_MVC\\Basic_MVC\\Basic_MVC.csproj",
       "projectName": "Basic_MVC",
-      "projectPath": "D:\\Projects\\NG_NazarevskyiMax_2022\\.Net Basic MVC\\Basic_MVC\\Basic_MVC\\Basic_MVC.csproj",
+      "projectPath": "D:\\Projects\\Basic_MVC\\Basic_MVC\\Basic_MVC.csproj",
       "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\NG_NazarevskyiMax_2022\\.Net Basic MVC\\Basic_MVC\\Basic_MVC\\obj\\",
+      "outputPath": "D:\\Projects\\Basic_MVC\\Basic_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
