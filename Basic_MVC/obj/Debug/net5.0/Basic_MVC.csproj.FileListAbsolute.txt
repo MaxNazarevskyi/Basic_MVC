@@ -64,7 +64,6 @@ D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Basic_MVC.TagHelpers.output.cac
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Basic_MVC.RazorCoreGenerate.cache
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Razor\Views\Login\Check.cshtml.g.cs
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -80,3 +79,4 @@ D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Basic_MVC.pdb
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Basic_MVC.genruntimeconfig.cache
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\ref\Basic_MVC.dll
 D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Basic_MVC.csproj.CopyComplete
+D:\Projects\Basic_MVC\Basic_MVC\obj\Debug\net5.0\Razor\Views\Check\Check.cshtml.g.cs

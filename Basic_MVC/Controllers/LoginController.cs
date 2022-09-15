@@ -11,34 +11,11 @@ namespace Basic_MVC.Controllers
         {
             return View("Login");
         }
-        public List<LoginModel> Users()
-        {
-            List<LoginModel> users = new List<LoginModel>
-            {
-                new LoginModel {login ="max", password = "1234", admin = false},
-                new LoginModel {login ="max2", password = "12345", admin = true}
-            };
-            return users;
-        }
-        public IActionResult Check(LoginModel user)
+        public IActionResult Info(LoginModel user)
         {
             user.login = this.Request.Form["login"];
             user.password = this.Request.Form["password"];
-            user.passCorrect = false;
-            foreach (var record in Users())
-            {
-                if (user.login == record.login && user.password == record.password)
-                {
-                    user.passCorrect = true;
-                    user.admin = record.admin;
-                    return View("Check", user);
-                }
-            }
-            if (user.login == null || user.password == null)
-            {
-                return View("Login");
-            }
-            return View("Check", user);
+            return RedirectToAction("Index", "Check", user);
         }
     }
 }
