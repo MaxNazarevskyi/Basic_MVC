@@ -13,8 +13,6 @@ namespace Basic_MVC.Controllers
         }
         public IActionResult Info(LoginModel user)
         {
-            user.login = this.Request.Form["login"];
-            user.password = this.Request.Form["password"];
             return RedirectToAction("Index", "Check", user);
         }
     }
